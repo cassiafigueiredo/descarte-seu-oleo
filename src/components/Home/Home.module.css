@@ -1,9 +1,10 @@
 .backgroundHome {
     background-image: url("./images/backgroundhome.png");
+    background-size: contain;
     font-family: var(--montserrat);
-    background-position: left center;
+    background-position: left top;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
   }
 
@@ -20,6 +21,7 @@
     align-items: center;
     border-radius: 20px;
     border-style: solid;
+    border-color: white;
     width: 110px; 
     height: 40px;
     background-color: #e1c948;

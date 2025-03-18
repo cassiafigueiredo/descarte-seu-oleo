@@ -1,5 +1,4 @@
 import styles from "../Home/Home.module.css"
-import { Link } from "react-router-dom"
 
 function Home() {
     return (
@@ -37,9 +36,7 @@ function Home() {
                         Descarte seu óleo de forma correta e consciente.
                     </h1>
                     <div className="d-flex justify-content-center mt-4">
-                    <Link to="/dicas#sessao-dicas" className={styles.botaoConhecer}>
-                    Conhecer!
-                    </Link>
+                    <button className={styles.botaoConhecer}>Conhecer!</button>
                     </div>
                 </div>
                 

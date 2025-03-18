@@ -1,0 +1,14 @@
+.containerDicas {
+    background-color: #e1c948;
+    
+    height: 100vh;
+}
+
+.h1Dicas {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: var(--leaguespartan);
+    font-weight: bold;
+}
